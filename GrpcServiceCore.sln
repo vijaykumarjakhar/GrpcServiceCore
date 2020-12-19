@@ -8,7 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{C4E64E25-4D0E-4471-B53C-99FD8F8B8D47}"
 	ProjectSection(SolutionItems) = preProject
 		greet.proto = greet.proto
-		sum.proto = sum.proto
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServiceCore", "GrpcServiceCore\GrpcServiceCore.csproj", "{02DD98DC-83C3-4174-917A-97C70EC6BAB4}"

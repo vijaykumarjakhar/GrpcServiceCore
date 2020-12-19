@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <None Remove="Protos\greet.proto" />
-    <None Remove="sum.proto" />
   </ItemGroup>
   <ItemGroup>
     <Protobuf Include="**/*.proto" OutputDir="%(RelativeDir)model/" CompileOutputs="false" />
@@ -20,6 +19,9 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Protos\model\" />
   </ItemGroup>
 
 </Project>
